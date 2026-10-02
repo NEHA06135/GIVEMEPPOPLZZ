@@ -21,7 +21,7 @@ class Solution
            if(nums[i]>max)
             max=nums[i];
        }
-        return gcd(min,max);
+        return gcd(max,min);
      
     }
 }
